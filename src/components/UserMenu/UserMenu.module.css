@@ -1,0 +1,14 @@
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .button {
+    background-color: #dc3545;
+  }
+  
+  .button:hover {
+    background-color: #c82333;
+  }
+  
