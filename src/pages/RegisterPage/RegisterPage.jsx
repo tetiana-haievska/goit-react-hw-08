@@ -40,8 +40,7 @@ import styles from './RegisterPage.module.css';
 export default function RegisterPage() {
   return (
     <div className={styles.form}>
-      <DocumentTitle>Registration</DocumentTitle>
-      <RegisterForm />
+        <RegisterForm />
     </div>
   );
 }
