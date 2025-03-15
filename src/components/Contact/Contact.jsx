@@ -53,5 +53,4 @@ const Contact = ({ data: { id, name, number }, edit, handleDelete }) => {
   );
 };
 
-
 export default Contact;
