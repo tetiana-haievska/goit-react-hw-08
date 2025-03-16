@@ -1,14 +1,10 @@
-/* .nav {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .link {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .link:hover {
-    text-decoration: underline;
-  }
-   */
+.link {
+  color: #007bff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

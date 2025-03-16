@@ -32,7 +32,7 @@ const LoginForm = () => {
       toast.success(`Welcome, ${response.user.name}`);
       navigate("/contacts", { replace: true });
     } catch (error) {
-      console.error('Error during login:', error);
+      console.error("Error during login:", error);
       toast.error("Invalid login data");
     }
     actions.resetForm();

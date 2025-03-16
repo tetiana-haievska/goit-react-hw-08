@@ -1,0 +1,10 @@
+.link {
+  color: #007bff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

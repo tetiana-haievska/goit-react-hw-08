@@ -22,7 +22,7 @@ const RegistrationForm = () => {
   const handleSubmit = async (values, { setSubmitting }) => {
     try {
       await dispatch(register(values));
-      navigate("/next-page"); // Замість '/next-page' вкажіть реальний шлях
+      navigate("/next-page");
     } catch (error) {
       alert("Registration failed: " + error.message);
     }
